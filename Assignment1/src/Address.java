@@ -1,44 +1,35 @@
-public class Address {
-
-    private String streetAddress, city, state;
-    private int zip;
-
-    public Address(String streetAddress, String city, String state, int zip) {
-        this.streetAddress = streetAddress;
-        this.city = city;
-        this.state = state;
-        this.zip = zip;
-    }
-
-    public String getStreetAddress() {
-        return streetAddress;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public int getZip() {
-        return zip;
-    }
-
-    public void setStreetAddress(String streetAddress) {
-        this.streetAddress = streetAddress;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public void setState(String state) {
-        this.state = state;
-    }
-
-    public void setZip(int zip) {
-        this.zip = zip;
-    }
+public class Address
+{
+	//Fields
+	String street, city, state, zip;
+	//Constructor
+	Address(String str, String city, String st, String zip)
+	{
+		this.street = str;
+		this.city = city;
+		this.state = st;
+		this.zip = zip;
+	}
+	//Setters
+	public void setStreet(String street) { this.street = street; }
+	public void setCity(String city) { this.city = city; }
+	public void setState(String state) { this.state = state; }
+	public void setZip(String zip) { this.zip = zip; }
+	//Getters
+	public String getStreet()
+	{
+		return street;
+	}
+	public String getCity()
+	{
+		return city;
+	}
+	public String getState()
+	{
+		return state;
+	}
+	public String getZip()
+	{
+		return zip;
+	}
 }

@@ -1,5 +1,5 @@
-public class Manufacturer {
-
-
+public class Manufacturer
+{
+	private String manu_name;
 
 }

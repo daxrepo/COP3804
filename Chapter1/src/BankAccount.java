@@ -3,7 +3,7 @@ public class BankAccount
 	private double balance;
 	private Customer cust;
 
-	public BankAccount (Customer c, double amt)
+	public BankAccount(Customer c, double amt)
 	{
 		cust = c;
 		balance = amt;
